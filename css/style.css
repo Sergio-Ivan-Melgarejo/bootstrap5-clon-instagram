@@ -3,12 +3,22 @@
     --gray-bg: rgb(239, 239, 239);
     --white: #fff;
     --blue-light: #0095f6;
-
+    --blue-light-x: rgba(0, 148, 246, 0.486);
 }
 
 .btn-primary{
     background-color: var(--blue-light) !important;
     border-color: var(--blue-light) !important;
+}
+
+.btn-outline-primary{
+    color: var(--blue-light) !important;
+    background-color: var(--white);
+}
+
+.btn-outline-primary:hover{
+    background-color: var(--blue-light) !important;
+    color: var(--white) !important;
 }
 
 .bg-primary{
@@ -25,6 +35,10 @@
 
 .bg-light {
     background-color: var(--white) !important;
+}
+
+a {
+    color: var(--blue-light);
 }
 
 /* * NAVBAR ------------------------- */
@@ -76,4 +90,59 @@
     background-size: cover;
     background-position: center center;
     padding: 0 !important;
+}
+
+/* * Main -------------------------- */
+
+.py-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.card-img-profile{
+    background-position: center center;
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.card-img-profile-1{
+    background-image: url(/img/person-1.jpg);
+}
+
+.card-img-profile-2{
+    background-image: url(/img/person-2.jpg);
+}
+
+.card-img-profile-3{
+    background-image: url(/img/person-3.jpg);
+}
+
+.card-img-profile-4{
+    background-image: url(/img/IMG_20211123_095135.jpg)
+}
+
+.card-img-profile-sub{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.card-body .far, .user-link{
+    transition: opacity 350ms;
+}
+
+.card-body .far:hover, .card-body .fas:hover, .user-link:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.img-profiles{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.add-coment{
+    outline-color: var(--blue-light-x) !important;
 }

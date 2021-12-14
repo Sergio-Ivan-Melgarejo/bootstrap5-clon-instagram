@@ -23,7 +23,7 @@
 
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom fixed-top">
         <div class="container-lg">
             <div class="w-100 d-flex justify-content-between align-items-center">
                 
@@ -70,22 +70,207 @@
                 </div>
 
             </div>
-
-
         </div>
     </nav>
 
     <!-- Main -->
 
+    <main class="container py-6">
+        <div class="row">
+
+            <!-- HEADER -->
+            <div class="col-lg-8">
+                <!-- Card 1 -->
+                <div class="card my-3 overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <a href="" class="card-img-profile card-img-profile-1 rounded-circle"></a>
+                            <a href="#" class="text-dark text-decoration-none fw-bolder mx-3 user-link">UsuariaAnonima001</a>
+                        </div>
+                        <div>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                
+                    <!-- IMG -->
+                    <img src="img/img-1.jpg" class="img-fluid" alt="img de una mujer">
+
+                    <!-- SHARE, LIKE, SAVE -->
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <div class="">
+                                <i class="far fa-heart lead"></i>
+                                <i class="far fa-comment lead mx-3"></i>
+                                <i class="far fa-paper-plane lead"></i>
+                            </div>
+                            <div class="">
+                                <i class="far fa-bookmark lead"></i>
+                            </div>
+                        </div>
+
+                        <p class="fw-bolder mt-2 border-bottom pb-2">89 Me gusta</p>
+
+                        <!-- USER UPLOAD -->
+                        <div class="my-2 d-flex align-items-center">
+                            <a href="#" class="card-img-profile card-img-profile-1 card-img-profile-sub"></a>
+                            <p class="m-0 mx-2">
+                                <a href="#" class="text-dark fw-bolder text-decoration-none user-link ">UsuariaAnonima001</a>
+                                Estrena un nuevo tema, <span class="fw-bold">"una noche azul"</span>.
+                            </p>
+                        </div>
+
+                        <!-- COMMENTS -->
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="mt-2 d-flex align-items-center">
+                                <a href="#" class="card-img-profile card-img-profile-2 card-img-profile-sub"></a>
+                                <p class="m-0 mx-2">
+                                    <a href="#" class="text-decoration-none fw-bolder text-dark user-link">Anonima-123</a> Esta increible el tema</p>
+                            </div>
+                            <i class="far fa-heart"></i>
+                            <p class="w-100 px-5 m-0 fw-light">2h <a href="#" class="text-decoration-none text-secondary fw-bold user-link">Responder</a></p>
+                        </div>
+                        
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="mt-2 d-flex align-items-center">
+                                <a href="#" class="card-img-profile card-img-profile-4 card-img-profile-sub"></a>
+                                <p class="m-0 mx-2">
+                                    <a href="#" class="text-decoration-none fw-bolder text-dark user-link">sergio.ivan.melgarejo</a> me suscribo</p>
+                            </div>
+                            <i class="far fa-heart"></i>
+                            <p class="w-100 px-5 m-0 fw-light">15s <a href="#" class="text-decoration-none text-secondary fw-bold user-link">Responder</a></p>
+                        </div>
+
+                        <small class="border-top w-100 d-block mt-3 pt-3 text-uppercase text-muted">hace 4 horas</small>
+
+                    </div>  
+                        <!-- Add COMMENT -->
+                        <form action="" class="d-flex border-top">
+                            <input type="text" class="add-coment text-control w-100 border-0 px-3 " placeholder="Agrega un Comentario...">
+                            <button class="sutmib p-3 px-4 border-0 fw-bold btn-outline-primary">Publicar</button>
+                        </form>  
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="card my-3 overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <a href="" class="card-img-profile card-img-profile-2 rounded-circle"></a>
+                            <a href="#" class="text-dark text-decoration-none fw-bolder mx-3 user-link">Anonima-123</a>
+                        </div>
+                        <div>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                
+                    <!-- IMG -->
+                    <img src="img/img-2.jpg" class="img-fluid" alt="img de una mujer">
+
+                    <!-- SHARE, LIKE, SAVE -->
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <div class="">
+                                <i class="far fa-heart lead"></i>
+                                <i class="far fa-comment lead mx-3"></i>
+                                <i class="far fa-paper-plane lead"></i>
+                            </div>
+                            <div class="">
+                                <i class="far fa-bookmark lead"></i>
+                            </div>
+                        </div>
+
+                        <p class="fw-bolder mt-2 border-bottom pb-2">13 Me gusta</p>
+
+                        <!-- USER UPLOAD -->
+                        <div class="my-2 d-flex align-items-center">
+                            <a href="#" class="card-img-profile card-img-profile-2 card-img-profile-sub"></a>
+                            <p class="m-0 mx-2">
+                                <a href="#" class="text-dark fw-bolder text-decoration-none user-link ">Anonima-123</a>
+                                Estreno sesión de fotos</span>.
+                            </p>
+                        </div>
+                        
+                        <!-- COMMENTS -->
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="mt-2 d-flex align-items-center">
+                                <a href="#" class="card-img-profile card-img-profile-3 card-img-profile-sub"></a>
+                                <p class="m-0 mx-2">
+                                    <a href="#" class="text-decoration-none fw-bolder text-dark user-link">AUTOS-FAN</a> Increible.</p>
+                            </div>
+                            <i class="far fa-heart"></i>
+                            <p class="w-100 px-5 m-0 fw-light">2h <a href="#" class="text-secondary fw-bold text-decoration-none user-link">Responder</a></p>
+                        </div>
+
+                        <small class="border-top w-100 d-block mt-3 pt-3 text-uppercase text-muted">hace 7 horas</small>
+
+                    </div>  
+                    
+                        <!-- Add COMMENT -->
+                        <form action="" class="d-flex border-top">
+                            <input type="text" class="add-coment text-control w-100 border-0 px-3 " placeholder="Agrega un Comentario...">
+                            <button class="sutmib p-3 px-4 border-0 fw-bold btn-outline-primary">Publicar</button>
+                        </form>  
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card my-3 overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <a href="" class="card-img-profile card-img-profile-3  rounded-circle"></a>
+                            <a href="#" class="text-dark text-decoration-none fw-bolder mx-3 user-link">AUTOS-FAN</a>
+                        </div>
+                        <div>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                
+                    <!-- IMG -->
+                    <img src="img/img-3.jpg" class="img-fluid" alt="img de una mujer">
+
+                    <!-- SHARE, LIKE, SAVE -->
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <div class="">
+                                <i class="far fa-heart lead"></i>
+                                <i class="far fa-comment lead mx-3"></i>
+                                <i class="far fa-paper-plane lead"></i>
+                            </div>
+                            <div class="">
+                                <i class="far fa-bookmark lead"></i>
+                            </div>
+                        </div>
+
+                        <p class="fw-bolder mt-2 border-bottom pb-2">3 Me gusta</p>
+
+                        <!-- USER UPLOAD -->
+                        <div class="my-2 d-flex align-items-center">
+                            <a href="#" class="card-img-profile card-img-profile-3 card-img-profile-sub"></a>
+                            <p class="m-0 mx-2">
+                                <a href="#" class="text-dark fw-bolder text-decoration-none user-link ">AUTOS-FAN</a>
+                                Nuevo auto, acelera a 100 km en 2s</span>.
+                            </p>
+                        </div>
+
+                        <small class="border-top w-100 d-block mt-3 pt-3 text-uppercase text-muted">hace 3 dias</small>
+
+                    </div>  
+                    <!-- Add COMMENT -->
+                    <form action="" class="d-flex border-top">
+                        <input type="text" class="add-coment text-control w-100 border-0 px-3 " placeholder="Agrega un Comentario...">
+                        <button class="sutmib p-3 px-4 border-0 fw-bold btn-outline-primary">Publicar</button>
+                    </form>  
+                </div>
+
+            </div>
+
+            <div class="col-lg-4"></div>
+
+        </div>
+
+    </main>
 
 
 
-
-
-
-
-
-
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
