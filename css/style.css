@@ -146,3 +146,20 @@ a {
 .add-coment{
     outline-color: var(--blue-light-x) !important;
 }
+
+
+/* * lado derecho ------------------------------- */
+
+.stories-container{
+    font-size: .8em;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.segir{
+    justify-self: flex-end;
+}
+
+.sugerencias{
+    font-size: .8em;
+}
