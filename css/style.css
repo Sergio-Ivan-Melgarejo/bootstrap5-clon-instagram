@@ -1,0 +1,79 @@
+:root {
+    --grey: #f8f6f6;
+    --gray-bg: rgb(239, 239, 239);
+    --white: #fff;
+    --blue-light: #0095f6;
+
+}
+
+.btn-primary{
+    background-color: var(--blue-light) !important;
+    border-color: var(--blue-light) !important;
+}
+
+.bg-primary{
+    background-color: var(--blue-light) !important;
+}
+
+.text-primary{
+    color: var(--blue-light) !important;
+}
+
+.bg-gray {
+    background-color: var(--grey) !important;
+}
+
+.bg-light {
+    background-color: var(--white) !important;
+}
+
+/* * NAVBAR ------------------------- */
+
+.navbar{
+    min-height: 50px;
+}
+
+.logo{
+    width: 120px;
+}
+
+.lead{
+    font-size: 1.8rem !important;
+}
+
+.buscador-container{
+    max-width: 400px;
+}
+
+.buscador{
+    padding-left: 35px;
+    background-color: var(--gray-bg); border-radius: 10px;
+}
+
+.lupa{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.registrar{
+    font-size: .9em;
+}
+
+.registrar .nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__container-img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(../img/IMG_20211123_095135.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 0 !important;
+}
