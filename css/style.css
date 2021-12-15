@@ -108,13 +108,10 @@ a {
 }
 
 .img-center{
-    position: relative;
-    top: -8px;
-}
-
-.img-center-2{
-    position: relative;
-    top: -20px;
+    object-fit: cover;
+    object-position: center center;
+    height: 100%; 
+    width: 100%;
 }
 
 .card-img-profile-sub{
