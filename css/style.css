@@ -107,6 +107,16 @@ a {
     border-radius: 50%;
 }
 
+.img-center{
+    position: relative;
+    top: -8px;
+}
+
+.img-center-2{
+    position: relative;
+    top: -15px;
+}
+
 .card-img-profile-1{
     background-image: url("/img/person-1.jpg");
 }
