@@ -86,7 +86,7 @@ a {
     height: 25px;
     border-radius: 50%;
     overflow: hidden;
-    background-image: url(../img/IMG_20211123_095135.jpg);
+    background-image: url("../img/IMG_20211123_095135.jpg");
     background-size: cover;
     background-position: center center;
     padding: 0 !important;
@@ -108,19 +108,19 @@ a {
 }
 
 .card-img-profile-1{
-    background-image: url(/img/person-1.jpg);
+    background-image: url("/img/person-1.jpg");
 }
 
 .card-img-profile-2{
-    background-image: url(/img/person-2.jpg);
+    background-image: url("/img/person-2.jpg");
 }
 
 .card-img-profile-3{
-    background-image: url(/img/person-3.jpg);
+    background-image: url("/img/person-3.jpg");
 }
 
 .card-img-profile-4{
-    background-image: url(/img/IMG_20211123_095135.jpg)
+    background-image: url("/img/IMG_20211123_095135.jpg")
 }
 
 .card-img-profile-sub{
